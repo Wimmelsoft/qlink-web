@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "keyword": "Aap",
+        "url": "https://www.apenheul.nl",
+        "description": "Fijn een dagje weg naar de apenheul"
+    },
+    {
+        "id": 2,
+        "keyword": "Meer dan it",
+        "url": "https://wiltenburgit.nl",
+        "description": "Uw partner in uw software"
+    },
+    {
+        "id": 3,
+        "keyword": "Lan",
+        "url": "https://www.websitevanlan.nl",
+        "description": "Website van Lan"
+    }
+]

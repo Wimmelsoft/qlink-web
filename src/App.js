@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SearchBar from './components/Searchbar.js'
+import Header from './layout/Header';
+import Data from './data/data.json';
+import Soundbites from './components/Soundbites';
 
 function App() {
+
+  const results = Data;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <SearchBar />
+      <Soundbites data={results} />
+      
     </div>
   );
 }
